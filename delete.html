@@ -1,0 +1,58 @@
+<html>  
+<head>  
+    <title>Delete account</title>  
+    <!--insert style.css file inside index.html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href = "login.css">   
+</head>  
+<body>  
+    <div id = "frm">  
+        <h1 class="spotify">Delete!</h1>
+        <h2 class="login"><u>Delete my account</u></h2>  
+       
+        <form name="f1" action = "delete.php" onsubmit = "return validation()" method = "POST">  
+            
+            <div class="input"><p>  
+                <label>Confirm Username: </label>  
+                <input type = "text" id ="user" name  = "user" />  
+            </p>  
+            <p>  
+                <label>COnfirm Password: </label>  
+                <input type = "password" id ="pass" name  = "pass" />  
+            </p>  
+            <p>     
+                <input type =  "submit" id = "btn" value = "Delete" />  
+            </p> 
+           
+        </div>
+        </form>  
+       
+    </div>  
+    <!--validation for empty field-->
+    <script>  
+            function validation()  
+            {  
+                var id=document.f1.user.value;  
+                var ps=document.f1.pass.value;  
+                if(id.length=="" && ps.length=="") {  
+                    alert("User Name and Password fields are empty");  
+                    return false;  
+                }  
+                else  
+                {  
+                    if(id.length=="") {  
+                        alert("User Name is empty");  
+                        return false;  
+                    }   
+                    if (ps.length=="") {  
+                    alert("Password field is empty");  
+                    return false;  
+                    }  
+                }                             
+            }  
+        </script>  
+</body>     
+</html>

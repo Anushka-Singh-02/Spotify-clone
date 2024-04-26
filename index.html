@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon"  href="./images/Spotify_logo_.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <div class="container">
+        <div class="leftpane">
+            <div class="card home">
+                <div class="pane-item logoname">
+                <img class="black-logo" src="./images/black-logo.png">
+                Spotify
+                </div>
+                <div class="pane-item h">
+                    <span class="material-symbols-outlined">
+                        home
+                        </span>
+                        Home
+                </div>
+
+                <div class="pane-item s">
+                    <span class="material-symbols-outlined">
+                        search
+                        </span>
+                        Search
+                </div>
+            </div>
+            <div class="card library">
+                <div class="pane-item add-library">
+                    <div class="pane-item">
+                    <span class="material-symbols-outlined">
+                        book_4 
+                        </span>
+                        Your Library
+                    </div>
+                        <div class="add">+</div>
+                </div>
+                <div class="pane-item playlist">
+                    <div class="bold">
+                    Create your first playlist
+                </div>
+                
+                <div>
+                    It's easy, we'll help you.
+                </div>
+                <button class="semibutton"><a href="./create.html" style="text-decoration: none; color: black;" >Create Playlist</a></button>
+                </div>
+
+                <div class="pane-item playlist podcast">
+                    <div class="bold">
+                    Let's find some podcasts to follow
+                </div>
+                
+                <div>
+                    We'll keep you updated on new episodes.
+                </div>
+                
+                </div>
+                <div class="rest">
+                    Cookies
+                </div>
+                <button class="semibutton language rest">
+                    <span class="material-symbols-outlined">
+                        language
+                        </span>
+                        English
+                </button>
+            </div>
+
+        </div>
+        <div class="rightpane">
+            <div class="card navbar">
+                <div class="pane-item nav-pane">
+                    <div class="navarrows">
+                    <div class="backpane">
+                        <span class="material-symbols-outlined">
+                            chevron_left
+                            </span>
+                        </div>
+                        <div class="backpane">
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                                </span>
+                            </div>
+                        </div>
+                    <div class="navbuttons">
+                        <div class="navbutton">
+                            Premium
+                        </div>
+                        <div class="navbutton">
+                            Support
+                        </div>
+                        <div class="navbutton">
+                            <a href="./delete.html" style="color:rgb(165, 164, 164)">Delete account</a>
+                            <a href="./change-pass.html" style="color:rgb(165, 164, 164)">Change Password</a>
+                        </div>
+                        
+                       
+                    </div>
+                </div>
+            </div>
+           
+            <div class="song-list">
+                <div class="pane-item banner">
+                    <span class="bold">
+                    Spotify Hits
+                </span>
+                    <span>
+                        Show all
+                    </span>
+                </div>
+                <div class="pane-item song-pane">
+                    <div class="song-card">
+                        <img src="./images/song1.jpg" class="song-image">
+                        <span class="bold songname">
+                            Dinner with friends
+                        </span>
+                        <audio id="track1">
+                            <source src="./songs/1.mp3" type="audio/mpeg" />
+                          </audio>
+                          
+                          <div id="player-container">
+                            <div id="play-pause1" class="play">
+                                <span class="material-symbols-outlined play" id='icon'>
+                                    play_arrow
+                                </span></div>
+                          </div>
+                          
+
+                        <span class="song-description">The perfect soundtrack to those nights over...</span>
+                    </div>
+                    <div class="song-card">
+                        <img src="./images/song2.webp" class="song-image">
+                        <span class="bold songname">
+                            Chillhop
+                        </span>
+                        <audio id="track2">
+                            <source src="./songs/2.mp3" type="audio/mpeg" />
+                          </audio>
+                          
+                          <div id="player-container">
+                            <div id="play-pause2" class="play">
+                                <span class="material-symbols-outlined play" id='icon'>
+                                play_arrow
+                                </span></div>
+                          </div>
+                          
+                        <span class="song-description">Blissed out beats and head nodding grooves - Relax,...</span>
+                    </div>
+                    <div class="song-card">
+                        <img src="./images/song3.jpg" class="song-image">
+                        <span class="bold songname">
+                            Jazz
+                        </span>
+                        <audio id="track3">
+                            <source src="./songs/3.mp3" type="audio/mpeg" />
+                          </audio>
+                          
+                          <div id="player-container">
+                            <div id="play-pause3" class="play">
+                                <span class="material-symbols-outlined play" id='icon'>
+                                play_arrow
+                                </span></div>
+                          </div>
+                          
+                        <span class="song-description">Soft instrumental Jazz for all your activities</span>
+                    </div>
+                    <div class="song-card">
+                        <img src="./images/song4.webp" class="song-image">
+                        <span class="bold songname">
+                            Calming Acoustic
+                        </span>
+                        <audio id="track4">
+                            <source src="./songs/4.mp3" type="audio/mpeg" />
+                          </audio>
+                          
+                          <div id="player-container">
+                            <div id="play-pause4" class="play">
+                                <span class="material-symbols-outlined play" id='icon'>
+                                play_arrow
+                                </span></div>
+                          </div>
+                          
+                        <span class="song-description">Keep calm with instrumental acoustic...</span>
+                    </div>
+                    <div class="song-card">
+                        <img src="./images/song5.jpg" class="song-image">
+                        <span class="bold songname">
+                            Big on the internet
+                        </span>
+                        <audio id="track5">
+                            <source src="./songs/5.mp3" type="audio/mpeg" />
+                          </audio>
+                          
+                          <div id="player-container">
+                            <div id="play-pause5" class="play">
+                                <span class="material-symbols-outlined play" id='icon'>
+                                play_arrow
+                                </span></div>
+                          </div>
+                          
+                        <span class="song-description">iykyk</span>
+                    </div>
+                </div>
+                <div class="pane-item banner">
+                    <span class="bold">
+                    Sleep
+                </span>
+                   
+                </div>
+                <div class="pane-item song-pane">
+                <div class="song-card">
+                    <img src="./images/sleep1.webp" class="song-image">
+                    <span class="bold songname">
+                        Sleep
+                    </span>
+                    <audio id="track6">
+                        <source src="./songs/6.mp3" type="audio/mpeg" />
+                      </audio>
+                      
+                      <div id="player-container">
+                        <div id="play-pause6" class="play">
+                            <span class="material-symbols-outlined play" id='icon'>
+                            play_arrow
+                            </span></div>
+                      </div>
+                      
+                    <span class="song-description">Gentle ambient piano to help you fall asleep</span>
+                </div>
+                <div class="song-card">
+                    <img src="./images/sleep2.webp" class="song-image">
+                    <span class="bold songname">
+                        DayDreamer
+                    </span>
+                    <audio id="track7">
+                        <source src="./songs/7.mp3" type="audio/mpeg" />
+                      </audio>
+                      
+                      <div id="player-container">
+                        <div id="play-pause7" class="play">
+                            <span class="material-symbols-outlined play" id='icon'>
+                            play_arrow
+                            </span></div>
+                      </div>
+                      
+                    <span class="song-description">Drift away with enthralling instrumentals</span>
+                </div>
+                </div>
+
+
+            </div>
+        </div>
+       
+       </div>
+       <script src="song.js"></script>
+    </body>
+</html>

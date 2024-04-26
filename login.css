@@ -1,0 +1,51 @@
+body{
+    background-image:url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    color:greenyellow;
+    font-family: 'Inter', sans-serif;
+    
+}
+#frm{
+    background-color: rgba(0, 0, 0, 0.749);
+    border-radius: 10px;
+}
+.spotify{
+    text-align: center;
+    margin-top: 10%;
+    font-size:4rem;
+}
+.login{
+    text-align: center;
+    margin-top: 10%;
+}
+.input{
+    padding: 2%;
+    margin-left: 38%;
+}
+#btn,.login-button{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: transparent;
+    color: greenyellow;
+    border:2px solid greenyellow;
+    width: 70px;
+    height: 40px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: black;
+}
+#btn:active{
+    color: rgb(96, 96, 96);
+
+}
+.register{
+    color:white;
+    font-size:0.7rem ;
+    display:inline;
+    flex-direction:row
+}
+a{
+    color:aqua;
+}
